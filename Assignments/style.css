@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;   
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+img{
+    margin: 10px;
+    width: 100%;
+    transition: 0.5s;
+}
+img:hover{
+    scale: 1.1;
+}
